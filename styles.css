@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(89, 92, 121);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.6;
+}
+
+#gametitle {
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+
+.score {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 7rm;
+}
+
+#restart {
+  display: none;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background: whitesmoke;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.choice {
+  cursor: pointer;
+}
+
+.choice:hover {
+  color: whitesmoke;
+}
+
+#footer {
+  background: whitesmoke;
+}

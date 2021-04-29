@@ -2,8 +2,49 @@
 <html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <script src="https://kit.fontawesome.com/5ce35ebdf8.js" crossorigin="anonymous"></script>
     <title>Rock, Paper, Scissors</title>
   </head>
-  <body></body>
+    <header>
+      <h1 id=gametitle>Rock, Paper, Scissors</h1>
+      <p>
+        A classic game - Rock, Paper, Scissors! Choose one of the three choices 
+        and see if you can beat the computer. Will you win?
+        </p>
+    </header>
+    <main>
+<form> 
+  <h2 class=text>What's your name?</h2> 
+    <input id=username type=text class=text> 
+  </h2><br>
+</form>
+    <section>
+        <br>
+        <button id=restart class=restartButton>Restart Game</button>
+        <article id=score class=score>
+        <p id=userScore>Player: 0 </p>
+        <p id=computerScore>Computer: 0 </p>
+        <p id=drawScore>Draw: 0 </p>
+      </article>
+    </section>
+    <section>
+      <h3>Choose Your Move!</h3>
+      <article class=choices>
+        <i id=rock class="choice fas fa-hand-rock fa-10x"></i>
+       <i id=paper class="choice fas fa-hand-paper fa-10x"></i>
+       <i id=scissors class="choice fas fa-hand-scissors fa-10x"></i>
+      </article>
+    </section>
+    <!--Modal-->
+    <article class=modal>
+      <article id=result class="modalContent"></article>   
+    </article>
+    <script src="main.js"></script>
+    </main>
+  <footer>
+    <p id=footer>Created by Maryam Dar</p>
+  </footer>
 </html>
